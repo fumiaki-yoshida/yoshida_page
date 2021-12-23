@@ -1,0 +1,178 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC');
+
+html {
+ background: transparent;
+ font-size: 62.5%;
+}
+body {
+ font-size: 1.3rem;
+ font-family: '繝｡繧､繝ｪ繧ｪ', '繝偵Λ繧ｮ繝手ｧ偵ざ', sans-serif;
+ letter-spacing: 0.2em;
+ line-height: 180%;
+}
+a {
+ color: #444444;
+ text-decoration: none;
+ transition: 0.5s;
+}
+h1,h2,h3,h4 {
+ font-family: 'IM Fell French Canon SC', serif;
+}
+h1 {
+ font-size: 5.0rem;
+ text-align: center;
+}
+h2 {
+/* padding: 0.1em 0em;
+ margin: 0.3em 0em;
+ border-bottom: solid 1px #191970;*/
+ display: inline-block;
+ padding: 0.2em 0.5em;
+ margin: 0.5em 0em;
+ border-top: solid 2px #002f6f;
+ border-bottom: solid 2px #002f6f;
+ font-size: 2.0em;
+ font-weight: normal;
+}
+h3 {
+ color: #222222;
+ font-size: 1.5em;
+ font-weight: normal;
+}
+em {
+ color: #002f6f;
+ font-style: normal;
+}
+ul,ol {
+ list-style: none;
+}
+input,textarea,select,button {
+ border: solid 1px #000000;
+ font-family: inherit;
+ font-size: 100%;
+}
+textarea {
+ padding: 0.2em;
+}
+form input[type="text"] {
+ margin-right: 0.5em;
+ width: 7em;
+}
+
+p {
+ padding: 0em 1em;
+}
+section {
+ margin: 2em 0em;
+}
+
+
+main {
+ display: block;
+ margin: 10rem auto;
+  width: 50%;
+  min-width: 500px;
+}
+
+
+
+.novel a {
+ color: #000000;
+}
+
+dl.long,ul.short {
+ padding: 1em;
+}
+
+.long dt {
+ padding-top: 1em;
+}
+.long dt a {
+ font-size: 1.2em;
+}
+.long dt span {
+ margin-left: 1em;
+ color: #002f6f;
+}
+.long dd {
+ padding: 0em 1em;
+ color: #666666;
+ font-size: 0.9em;
+}
+
+.short a {
+ margin: 0em 1em;
+ color: #001635;
+}
+.short a:visited {
+ color: #35465c;
+}
+.short li {
+ padding: 0.1em 0em;
+}
+.short span {
+ color: #666666;
+}
+
+.text {
+ line-height: 200%;
+}
+.text p {
+ text-indent: 1em;
+}
+.text .ps {
+ padding: 1em 0em;
+ border-top: dashed 1px #002f6f;
+ color: #444444;
+}
+
+
+
+header {
+ padding: 25vh 0vh;
+ margin: 3rem auto;
+  width: 60%;
+  min-width: 500px;
+ font-family: 'IM Fell French Canon SC', 'Open Sans Condensed', sans-serif;
+ text-align: center;
+}
+header .sitename {
+ display: inline-block;
+ padding: 3rem 7rem;
+ border-top: solid 2px #002f6f;
+ border-bottom: solid 2px #002f6f;
+ font-size: 1.5rem;
+}
+header h1 {
+ display: inline-block;
+ padding: 0.2em 0em;
+/* background: #faebd7;*/
+ color: #000000;
+}
+header a {
+ color: #000000;
+}
+nav {
+ padding: 1em 0em 2em 0em;
+}
+
+
+nav ul {
+ display: flex;
+ justify-content: center;
+}
+nav li {
+ padding: 0.5em;
+ font-size: 2.5rem;
+}
+nav a:hover {
+ color: #002f6f;
+ text-shadow: 2px 2px 2px #faebd7;
+}
+
+
+
+.right {
+ text-align: right;
+}
